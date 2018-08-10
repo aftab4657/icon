@@ -1,0 +1,85 @@
+input[type="color"] {
+  -webkit-appearance: none;
+  border: none;
+  width: 22px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+input[type="color"]:hover {
+  cursor: pointer;
+}
+input[type="color"]::-webkit-color-swatch-wrapper {
+  padding: 0;
+  border-radius: 50%;
+}
+input[type="color"]::-webkit-color-swatch {
+  border: none;
+  border-radius: 50%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.size {
+  height: 150px;
+  width: 150px;
+}
+
+.clr-circle1 {
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  background-color: #7c0dec;
+  display: inline-block;
+}
+.clr-circle2 {
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  background-color: #0dec0d;
+  display: inline-block;
+}
+
+.clr-circle3 {
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  background-color: #ec0d0d;
+  display: inline-block;
+}
+.clr-circle4 {
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  background-color: #f4e404;
+  display: inline-block;
+}
+.clr-circle5 {
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  background-color: #048cf4;
+  display: inline-block;
+}
+
+.clr-circle1:hover {
+  cursor: pointer;
+}
+
+.clr-circle2:hover {
+  cursor: pointer;
+}
+
+.clr-circle3:hover {
+  cursor: pointer;
+}
+
+.clr-circle4:hover {
+  cursor: pointer;
+}
+
+.clr-circle5:hover {
+  cursor: pointer;
+}
